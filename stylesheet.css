@@ -1,0 +1,263 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: latha;
+	color: #000;
+	background-image:
+		url(https://res.cloudinary.com/simplotel/image/upload/x_0,y_0,w_700,h_394,r_0,c_crop,q_60,fl_progressive/w_400,f_auto,c_fit/hotel-gulzar-towers-jabalpur/premiumforrestaurants_0_ljsrmt);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+	letter-spacing: 2px;
+	font-size: 60px;
+	text-align: center;
+	color: #000;
+	text-shadow: 2px 2px 2px #808080;
+}
+
+.services {
+	float: right;
+	margin-right: 10px;
+}
+
+li {
+	list-style: none;
+}
+
+.services li {
+	letter-spacing: 1px;
+	float: left;
+	color: #000;
+	margin-right: 20px;
+}
+
+.services a {
+	font-size: 30px;
+	color: #000;
+	text-shadow: 1px 1px 4px #000000;
+}
+
+.services a:hover {
+	color: #696969;
+}
+
+.user-account {
+	padding-top: 55px;
+	text-align: center;
+}
+
+.user-account p {
+	font-size: 40px;
+	color: #000;
+}
+
+.user-account a {
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	text-shadow: 1px 1px 4px #fff;
+}
+
+.login {
+	background-color: #00FA9A;
+	width: 100px;
+	margin-right: 30px;
+}
+
+.login:hover {
+	background-color: #98FB98;
+}
+
+.register {
+	background-color: #00FA9A;
+	width: 100px;
+	margin-left: 30px;
+}
+
+.register:hover {
+	background-color: #98FB98;
+}
+
+.social {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.social p {
+	color: #000;
+	font-size: 60px;
+}
+
+.btn {
+	padding: 20px 20px;
+	display: inline-block;
+	border-radius: 4px;
+}
+
+.facebook {
+	color: #fff;
+	background-color: #3b5998;
+	margin-right: 30px;
+	width: 80px;
+}
+
+.instagram {
+	color: #fff;
+	background-color: #E1306C;
+	margin-left: 30px;
+	width: 80px;
+}
+
+.facebook:hover {
+	background-color: #1E90FF;
+}
+
+.instagram:hover {
+	background-color: #EE82EE;
+}
+
+.address {
+	margin-top: 40px;
+}
+
+.address h4 {
+	margin-left: 40px;
+	padding-top: 15px;
+	color: #000;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+.address p {
+	margin-left: 40px;
+	margin-top: 5px;
+	color: #000;
+	font-size: 20px;
+}
+
+.contact-no {
+	color: #000;
+	font-size: 30px;
+	float: right;
+}
+
+.phn-no {
+	margin-left: 1100px;
+	color: #000;
+	font-size: 30px;
+}
+
+.conatct li {
+	float: bottom-right;
+}
+/*---------Dine page-----------------------*/
+header p {
+	font-size: 40px;
+	font-family: latha;
+}
+
+main {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+img {
+	margin-top: 20px;
+	border-radius: 20px;
+	height: 200px;
+	width: 300px;
+	border-radius: 20px;
+}
+
+img:hover {
+	transform: scale(1.1, 1.1);
+	transition: 2s transform;
+}
+
+.title p {
+	margin-bottom: 30px;
+	font-size: 50px;
+	text-align: center;
+}
+
+.gallery-list p {
+	text-align: center;
+	font-size: 20px;
+	font-family: latha;
+}
+
+.gallery-list {
+	height: 50px;
+}
+
+.party-lounge {
+	float: left;
+	padding-right: 20px;
+}
+
+.dhaba {
+	float: left;
+	padding-right: 20px;
+}
+
+.dining {
+	float: left;
+	padding-right: 20px;
+}
+
+.bar {
+	float: left;
+	padding-right: 20px;
+}
+
+/*-----------------Gallery---------------*/
+.gallery-list h1 {
+	font-size: 30px;
+	text-align: center;
+}
+
+/*--------------BookNow-----------------*/
+#booking
+{
+	width:1000px;
+	height:550px;
+	margin:40px auto;
+}
+
+#booking-form
+{
+	color:white;
+	width:800px;
+	height:500px;
+	background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTw8Aw-scO2rliHx2PY9H_gFgTrxAZu8FSCwee_O_urNYCK9mAD&usqp=CAU);
+	margin: auto;
+	top:20px;
+	position:relative;
+	border-radius:20px;
+	text-align:center;
+	padding: 5px 5px 5px 5px;
+}
+
+label
+{
+	width:200px;
+	display:inline-block;
+	text-align:right;
+}
+
+input
+{
+	padding:6px;
+	font-size:14px;
+	border-radius:4px;
+}
+
+textarea
+{
+	padding:6px;
+	font-size:14px;
+}
+
